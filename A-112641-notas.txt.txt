@@ -1,0 +1,174 @@
+NOME: Diogo Santos Sampaio
+NMEC: 112641
+
+azureuser@maquinaSampaio:~$ pwd
+/home/azureuser
+
+Primeira tarefa:
+azureuser@maquinaSampaio:~$ mkdir teste
+azureuser@maquinaSampaio:~$ cd teste
+azureuser@maquinaSampaio:~/teste$ pwd
+/home/azureuser/teste
+azureuser@maquinaSampaio:~/teste$ git clone https://github.com/Sampaiozao/LI2025-Teste03
+Cloning into 'LI2025-Teste03'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+
+Segunda Tarefa:
+ cd LI2025-Teste03
+ ls
+README.md
+ cd ..
+ cd LI2025-Teste03
+ mkdir A112641
+ cd A112641
+ echo " Teste de LI 2025/2026" > README.md
+ ls
+README.md
+ cd ..
+ git add .
+git commit -m "2ª tarefa concluída"
+git push
+
+
+Terceira Tarefa:
+git clone https://github.com/Sampaiozao/LI2025-Teste03
+
+Editado no VSCODE 
+
+git add . 
+
+git commit -m "3ª tarefa concluída"
+
+git push
+
+Quarta Tarefa:
+git add . 
+
+git commit -m "ª tarefa concluída"
+
+git push
+
+quinta:
+
+git pull origin main
+
+cp index.html disciplinas.html
+
+git pull origin main
+
+git pull origin main 
+
+history > meusComandosAzure.txt
+
+cat meusComandosAzure.txt
+    1  pwd
+    2  mkdir -v dir1
+    3  cd dir1
+    4  touch file1.txt
+    5  ls
+    6  echo "Diogo Sampaio" >> file1.txt
+    7  echo "112641" >> file1.txt
+    8  echo "2 outubro" >> file1.txt
+    9  cat file1.txt
+   10  exit
+   11  sudo apt update
+   12  sudo update -y
+   13  sudo apt upgrade -y
+   14  sudo apt install apache2 -y
+   15  sudo systemctl status apache2
+   16  sudo systemctl start apache2
+   17  sudo systemctl enable apache2
+   18  exit
+   19  git clone https://github.com/Sampaiozao/html1
+   20  cd /var/www/html/
+   21  ls
+   22  vi inndex
+   23  vi index
+   24  ls
+   25  vi index.html
+   26  cd
+   27  ls
+   28  cd dir1
+   29  ls
+   30  cat file1.txt
+   31  cd
+   32  sudo git clone https://github.com/Sampaiozao/html1
+   33  ls -all
+   34  cd /var/www/html/
+   35  sudo git clone https://github.com/Sampaiozao/html1
+   36  ls -all
+   37  cat html1
+   38  sudo rmdir html1
+   39  sudo rmdir -r html1
+   40  rmdir --help
+   41  sudo rmdir html1
+   42  cd html1
+   43  ls
+   44  sudo rm index.html
+   45  ls
+   46  sudo rm README.md
+   47  ls
+   48  cs ..
+   49  cd ..
+   50  sudo rmdir html1
+   51  cd html1
+   52  ls
+   53  ls -all
+   54  cd
+   55  rm -r html1
+   56  ls -all
+   57  cd /var/www/html
+   58  ls
+   59  cd
+   60  sudo s1
+   61  s
+   62  pwd
+   63  mkdir teste
+   64  cd teste
+   65  pwd
+   66  git clone https://github.com/Sampaiozao/LI2025-Teste03
+   67  cat
+   68  ls
+   69  cd LI2025-Teste03
+   70  ls
+   71  cd ..
+   72  cd LI2025-Teste03
+   73  mkdir A112641
+   74  cd A112641
+   75  echo " Teste de LI 2025/2026" > README.md
+   76  ls
+   77  cd ..
+   78  git add main .
+   79  git add .
+   80  git commit -m "2ª tarefa concluída"
+   81  git push
+   82  git pull origin main
+   83  cp index.html disciplinas.html
+   84  ls
+   85  git add .
+   86  git commit -m "Criado ficheiro disciplinas.html a partir do ficheiro index.html"
+   87  git push
+   88  git pull main origin
+   89  git pull origin main
+   90  history > meusComandosAzure.txt
+
+
+--------------------------------------------
+
+  2 Clear-History
+   3 git clone https://github.com/Sampaiozao/LI2025-Teste03
+   4 cd LI2025-Teste03
+   5 git add .
+   6 git commit -m "3ª tarefa concluída"
+   7 git push
+   8 git add .
+   9 git commit -m "4ª tarefa"
+  10 git push
+  11 git pull origin main
+  12 git add .
+  13 git commit -m "5 tarefa"
+  14 git push
+  15 git pull origin main
